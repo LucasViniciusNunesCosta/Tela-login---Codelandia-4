@@ -1,0 +1,94 @@
+.container__root{
+    display: flex;
+    justify-content: space-between;
+}
+.section__banner{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7fafc;
+}
+.section__banner > img{
+    width: 60%;
+    height: 60%;
+}
+
+/*FORMULARIO*/
+
+.section__login{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section__login > .container__login{
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.section__login > .container__login > .login__titulo > p{
+    font-size: 16px;
+}
+.section__login > .container__login > .login__titulo > h2{
+    font-size: 26px;
+}
+.section__login > .container__login > .login__formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.section__login > .container__login > .login__formulario > form > input{
+    margin-bottom: 1rem;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    padding: .5rem;
+    margin-top: .8rem;
+}
+.section__login > .container__login > .login__formulario > .container__opcoes-login{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__login > .container__login > .login__formulario > .container__opcoes-login > a{
+    color: var(--blue);
+}
+.section__login > .container__login > .login__formulario > .container__opcoes-login > .opcoes-login__lembre-btn > span{
+    margin-left: .5rem;
+}
+.section__login > .container__login > .login__formulario > .container__opcoes-login > .opcoes-login__lembre-btn > input{
+    border-radius: 50%;
+}
+.section__login > .container__login > .login__formulario > .container__botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+.section__login > .container__login > .login__formulario > .container__botoes > button{
+    padding: 1.2rem;
+    height: 50px;
+    background-color: var(--green);
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 16px;
+}
+.section__login > .container__login > .login__formulario > .container__botoes > button:nth-child(2){
+    background-color: var(--dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+.section__login > .container__login > .rodape{
+    display: flex;
+    justify-content: center;
+}
