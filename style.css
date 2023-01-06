@@ -92,3 +92,23 @@
     display: flex;
     justify-content: center;
 }
+@media only screen and (max-width: 800px) {
+    .section__banner{
+        display: none;
+    }
+    .section__login{
+        height: 100vh;
+        width: 100vw;
+    }
+    .section__login > .container__login{
+        height: 100vh;
+        width: auto;
+    }
+    .section__login > .container__login > .login__formulario > .container__opcoes-login{
+        display: flex;
+        flex-direction: column;
+    }
+    .section__login > .container__login > .login__formulario > .container__botoes > button{
+        font-size: 90%;
+    }
+}
